@@ -4,7 +4,7 @@ import Logo from '../images/logoWhite.png'
 
 import Layout from '../components/layout'
 import Image from '../components/image'
-import Card from '../components/card';
+import Card from '../components/Card';
 
 const IndexPage = () => (
   <div>
@@ -18,11 +18,32 @@ const IndexPage = () => (
         </div>
     </div>
     <div className="Card">
-      <h2>11 collection, more coing</h2>
-      <Card 
-        title="Collections 2" 
-        text="11 collect, more coming"
-        image={require('../images/image1.png')} />
+      <div className="CardGroup">
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image1.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image2.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image3.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image4.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image5.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image6.png')} />
+      </div>
     </div>
   </div>
 
