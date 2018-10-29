@@ -17,7 +17,95 @@ const IndexPage = () => (
 
         </div>
     </div>
-    <div className="Card">
+    <div className="Cards">
+      <h2>Oblivion</h2>
+      <div className="CardGroup">
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image1.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image2.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image3.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image4.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image5.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image6.png')} />
+      </div>
+    </div>
+    <div className="Cards">
+      <h2>Oblivion</h2>
+      <div className="CardGroup">
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image1.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image2.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image3.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image4.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image5.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image6.png')} />
+      </div>
+    </div>
+    <div className="Cards">
+      <h2>Oblivion</h2>
+      <div className="CardGroup">
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image1.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image2.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image3.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image4.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image5.png')} />
+        <Card 
+          title="Oblivion" 
+          text="Helicopter"
+          image={require('../images/image6.png')} />
+      </div>
+    </div>
+    <div className="Cards">
+      <h2>Oblivion</h2>
       <div className="CardGroup">
         <Card 
           title="Oblivion" 

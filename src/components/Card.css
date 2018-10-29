@@ -1,6 +1,6 @@
 .Card{
-    width: 380px;
-    height: 262px;
+    width: 226px;
+    height: 92px;
     position: relative;
     overflow: hidden;
     display: grid;
@@ -12,33 +12,59 @@
 .Card img {
     position: absolute;
     top: 0;
-    height: 100%;
+    height: 120%;
     z-index: -1;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 .Card h3 {
     color: white;
-    font-size: 22px;
+    opacity: 0;
+    font-size: 16px;
     letter-spacing: 2px;
     margin: 20px 0 0 20px;
 }
 
 .Card p {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 12px;
     align-self: start;
     margin: 0 0 20px 20px;
+    opacity: 0;
+
 }
 
 .Card:hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+    transform: scale(1.2, 1.2);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
 }
 
 .Card:hover img {
-    transform: translateY(-20px);
+    transform: translateY(-6px);
+}
+
+.Card:hover h3 {
+    color: white;
+    opacity: 1;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 20px 0 0 20px;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+
+}
+
+.Card:hover p {
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 12px;
+    align-self: start;
+    margin: 0 0 20px 20px;
+    transition: 0.4s cubic-bezier(0.2, 0.8, 0.2, 0.8);
+
 }
