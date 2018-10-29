@@ -25,7 +25,7 @@ const IndexPage = () => (
           text="Helicopter"
           image={require('../images/image1.png')} />
         <Card 
-          title="Oblivion" 
+          title="Tron" 
           text="Helicopter"
           image={require('../images/image2.png')} />
         <Card 
@@ -47,7 +47,7 @@ const IndexPage = () => (
       </div>
     </div>
     <div className="Cards">
-      <h2>Oblivion</h2>
+      <h2>Tron</h2>
       <div className="CardGroup">
         <Card 
           title="Oblivion" 
