@@ -3,9 +3,8 @@ import { Link } from 'gatsby'
 
 const Header = ({ siteTitle }) => (
   <div>
-    Header 
+    Header
   </div>
-  
 )
 
 export default Header
